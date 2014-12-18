@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <!--<statePointEntry>-->
+      <!--<state      -->
+        <!--class = "com.android.tools.idea.editors.navigation.model.ActivityState"      -->
+        <!--className = "careeril.com.criminalintent.activity.CrimeActivity"/>-->
+      <!--<point      -->
+        <!--x = "320"      -->
+        <!--y = "480"/>-->
+    <!--</statePointEntry>statePointEntry-->
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "careeril.com.criminalintent.activity.CrimePagerActivity"/>
+      <point      
+        x = "640"      
+        y = "160"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "careeril.com.criminalintent.fragments.CrimeFragment"/>
+      <point      
+        x = "960"      
+        y = "0"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "careeril.com.criminalintent.activity.CrimeListActivity"/>
+      <point      
+        x = "1600"      
+        y = "0"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
